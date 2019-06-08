@@ -1,6 +1,4 @@
-# Shop Project
-
-## Narrative
+# Shop-ReactApp
 
 ### Start
 
@@ -63,4 +61,4 @@ We know we want to track the stock within our restaurant, which will tell us wha
 - App should have a constructor method
 - This needs to call the parent constructor method so it can run the setup of a Component
 - It also needs to initialise state to have a stock property, which can be an empty object for now
-# Shop-ReactApp
+
