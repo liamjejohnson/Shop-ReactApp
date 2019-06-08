@@ -1,0 +1,27 @@
+.name {
+  color: var(--white);
+}
+.at {
+}
+.price {
+  color: var(--black);
+}
+.x {
+  color: var(--white);
+}
+.quantity {
+  color: var(--white);
+}
+.delete {
+  opacity: 0;
+  text-decoration: underline;
+  margin-left: 8px;
+  transition: opacity 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.item:hover > .delete {
+  opacity: 1;
+}
+.delete:hover {
+  color: var(--purple);
+}
